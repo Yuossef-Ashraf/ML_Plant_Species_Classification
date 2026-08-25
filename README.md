@@ -1,28 +1,30 @@
-# Plant Species Classification System 🌿🔬
+# Plant Species Classification
 
-Multiclass Machine Learning classification algorithm for categorizing plant species based on leaf and botanical characteristics.
+A multiclass machine learning classification model for identifying plant species using botanical measurement data.
 
-## Key Features ✨
-- Well-structured code and clean modular implementation.
-- Built with modern standard tools: **Python, Scikit-Learn, Multiclass Classification, Pandas**.
-- Clean data preprocessing, EDA, and model evaluation metrics.
+## Contents
+- **Code**: `ML_Plant_Species_Classification (code).ipynb`
+- **Dataset / Resources**: `plants_dataset_euhm_itai_07.csv`
+- **Documentation**: `README.md`
 
-## Project Structure 📂
-```
-ML_Plant_Species_Classification/
-├── .gitignore
-├── README.md
-└── ... (project source files)
+## Requirements
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
 
-## Setup & Installation 🚀
+## Usage
+1. Clone the repository:
 ```bash
 git clone https://github.com/Yuossef-Ashraf/ML_Plant_Species_Classification.git
 cd ML_Plant_Species_Classification
 ```
+2. Open and run the project code:
+```bash
+jupyter notebook "ML_Plant_Species_Classification (code).ipynb"
+```
 
-## Author 👤
-Created and maintained by **Yuossef Ashraf**.
+## Author
+Yuossef Ashraf
 
-## License 📜
-Distributed under the MIT License.
+## License
+MIT License
